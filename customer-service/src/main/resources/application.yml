@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: customer-service
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+  datasource:
+    name: mydb
+    url: jdbc:h2:mem:mydb
+
+server:
+  port: 8081
+  
+  
+  
